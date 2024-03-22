@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{090F4F17-6398-4BAE-8554-CC9A5A568634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1BA2A32E-D8E7-44FD-816D-D2C8D53F9EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorium", "src\Blazorium\Blazorium.csproj", "{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorium.Preview", "test\Blazorium.Preview\Blazorium.Preview.csproj", "{B049126A-F03D-4491-AA6F-67D3F616F16F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B049126A-F03D-4491-AA6F-67D3F616F16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B049126A-F03D-4491-AA6F-67D3F616F16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B049126A-F03D-4491-AA6F-67D3F616F16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B049126A-F03D-4491-AA6F-67D3F616F16F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD8C4C94-FFC0-4821-B35D-B4F32C1F3C41} = {090F4F17-6398-4BAE-8554-CC9A5A568634}
+		{B049126A-F03D-4491-AA6F-67D3F616F16F} = {1BA2A32E-D8E7-44FD-816D-D2C8D53F9EE8}
+	EndGlobalSection
+EndGlobal

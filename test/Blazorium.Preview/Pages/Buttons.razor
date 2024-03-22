@@ -1,0 +1,13 @@
+﻿@page "/buttons"
+@using Blazorium.Common
+
+<PageTitle>Buttons</PageTitle>
+
+<div class="flex flex-row flex-wrap gap-3">
+    @foreach (ColorVariant color in Enum.GetValues<ColorVariant>())
+    {
+        <Blazorium.Button Color="color">
+            @color
+        </Blazorium.Button>
+    }
+</div>

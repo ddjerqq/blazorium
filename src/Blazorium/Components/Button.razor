@@ -1,0 +1,15 @@
+﻿<button class="..." @attributes="AdditionalAttributes">
+    @ChildContent
+</button>
+
+@code
+{
+    [Parameter]
+    public ColorVariant Color { get; set; }
+
+    [Parameter, EditorRequired]
+    public RenderFragment ChildContent { get; set; } = default!;
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> AdditionalAttributes { get; set; } = new();
+}
