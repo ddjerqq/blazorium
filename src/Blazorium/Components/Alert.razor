@@ -1,4 +1,4 @@
-﻿@using System.Reflection.Metadata
+﻿
 
 
 <div class="width-full rounded @Color.Text() text-center bg-black">
@@ -7,12 +7,11 @@
 
 
 @code {
-
-
     [Parameter] 
     public ColorVariant Color { get; set; }
     
-    [Parameter] 
+    [Parameter, EditorRequired] 
     public RenderFragment ChildContent { get; set; }
+    
     
 }
