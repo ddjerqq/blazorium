@@ -1,0 +1,23 @@
+﻿
+
+
+
+<div id="alert-1" class="flex max-w-xl items-center p-4 mb-4 @Color.Text() rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+    <Heroicon class="w-4 h-4" Type="@HeroiconType.Solid" Name="@HeroiconName.ExclamationTriangle"></Heroicon>
+    <span class="sr-only">Info</span>
+    <div class="ms-3 text-sm font-medium">
+        @ChildContent
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter] 
+    public ColorVariant Color { get; set; }
+    
+    [Parameter, EditorRequired] 
+    public RenderFragment ChildContent { get; set; }
+    
+    
+}
